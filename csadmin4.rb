@@ -124,7 +124,7 @@ browser.close
 
 #******** Connecting to the database
 #egin
-#bh = Mysql.new('184.106.197.229', 'nkrishnan', 'aadhya99', 'ecom')
+#bh = Mysql.new('184.106.197.229', 'nkrishnan', 'password', 'ecom')
 #  puts "Server version" + dbh.get_server_info + " " + "Connection to database possible".red
 
  #rescue Mysql::Error =>e
