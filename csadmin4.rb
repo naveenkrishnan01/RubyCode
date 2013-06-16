@@ -6,6 +6,7 @@ require 'rubygems'
 require 'watir-webdriver'
 require 'colorize'
 #require 'mysql'
+require 'test/unit'
 
 #Watir.options_file = '/nkrishnan/testconfig.yml'
 browser = Watir::Browser.new :chrome
@@ -30,7 +31,7 @@ browser.select_list(:name, 'search_type').click
 browser.text_field(:name, "email_address").set("devtesttnt007.cyde01@yopmail.com");
 browser.button(:value, 'Search').click
 
-require "test/unit/assertions"
+#require "test/unit/assertions"
 include Test::Unit::Assertions
 
 begin

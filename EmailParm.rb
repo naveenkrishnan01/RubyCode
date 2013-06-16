@@ -1,20 +1,25 @@
 #!/usr/bin/env ruby
 
 require 'rubygems'
+require 'mail'
 
-class Email
-   def Initialize
-     @email = 'naveenkrishnan'
-   end
-
-
-  def Email(email)
-     email.to_sym
- end
+options = { :address              => "mail.smtp.com",
+            :port                 => 25,
+            :domain               => 'gmail.com',
+            :user_name            => 'naveenkrishnan01@gmail.com',
+            :password             => 'jamesbond009',
+            :authentication       => 'plain',
+            :enable_starttls_auto => true  }
+ Mail.defaults do
+  delivery_method :smtp, options
 end
 
-@t=Email.new
-#.to_s
-puts @t
+ mail = Mail.new do
+      from 'naveenkrishnan01@gmail.com'
+        to 'naveenkrishnan01@gmail.com'
+   subject 'This is a test email'
+        
+ end
 
+puts mail.to_s
 
