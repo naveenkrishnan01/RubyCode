@@ -1,25 +1,20 @@
 #!/usr/bin/env ruby
 
 require 'rubygems'
-require 'mail'
-
-options = { :address              => "mail.smtp.com",
-            :port                 => 25,
-            :domain               => 'gmail.com',
-            :user_name            => 'naveenkrishnan01@gmail.com',
-            :password             => 'jamesbond009',
-            :authentication       => 'plain',
-            :enable_starttls_auto => true  }
- Mail.defaults do
-  delivery_method :smtp, options
-end
-
- mail = Mail.new do
-      from 'naveenkrishnan01@gmail.com'
-        to 'naveenkrishnan01@gmail.com'
-   subject 'This is a test email'
-        
- end
-
-puts mail.to_s
+require 'tlsmail'  
+require 'time' 
+    
+content = <<EOF
+ From: naveenkrishnan01@gmail.com
+    To: testmos@yopmail.com 
+    Subject: TEST IS NOW COMPLETE 
+    Date: #{Time.now.rfc2822}\n  
+    TEST 
+EOF
+     
+    Net::SMTP.enable_tls(OpenSSL::SSL::VERIFY_NONE)  
+    Net::SMTP.start('smtp.gmail.com', 587, 'gmail.com', 'naveenkrishnan01@gmail.com', 'jamesbond009', :login) do |smtp|  
+      smtp.send_message(content, 'naveenkrishnan01@gmail.com',
+   'testmos@yopmail.com')
+end 
 
