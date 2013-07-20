@@ -32,12 +32,6 @@
   <label>&nbsp;</label>
   <input type="submit" name="submit_but" value="Submit"/><br />
 
-<?php
-if (isSet($_POST['submit_but']))
-  {
-   print 'Form submitted';
- }
-?>
 </body>
 </html>
 

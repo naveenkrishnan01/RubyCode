@@ -11,7 +11,7 @@ module Setup
   exit
   elsif
    ARGV[0] == "qa"
-   puts 'the argument passed is correct'
+   puts 'the argument passed is correct'.yellow
   end
  end
 
