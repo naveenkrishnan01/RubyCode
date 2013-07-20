@@ -138,7 +138,7 @@ strFile.puts(@reportContent1)
       <th width=15%>Run time:</th>
       <td width=20% align="center">' + test_time  + '</td>
       <th width=15%>Browser:</th>
-      <td align="center" width=20%><img src="../classes/images/' + browser.downcase + '.gif" width=30%/></td>
+      <td align="center" width=20%><img src="../RubyCode/classes' + browser.downcase + '.gif" width=30%/></td>
       <th width=10%>Env:</th>
       <td align="center">' + env + '</td>
       </tr>
