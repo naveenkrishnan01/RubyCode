@@ -123,7 +123,7 @@ class HTMLReport
       <br><br>
       <hr width=100% size=1px>
       <br />
-      <center><h5>&copy;CompanyName 2009</h5></center>
+      <center><h5>&copy;Oprah Winfrey Network 2013</h5></center>
       <br>'
 
 strFile.puts(@reportContent1)
