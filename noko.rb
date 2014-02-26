@@ -15,7 +15,10 @@ require 'open-uri'
 url = "http://www.oprah.com/"
 
 doc = Nokogiri::HTML(open(url))
- doc.xpath('//comment()').each do |a_tag|
-  puts a_tag.content
-end 
+# doc.xpath('//comment()').each do |a_tag|
+#  puts a_tag.content
+#end 
 
+#	puts doc.css('title')
+#        puts doc.css('li')
+        puts doc.css('li')[0]['href']

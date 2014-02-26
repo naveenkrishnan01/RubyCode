@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+<<<<<<< HEAD
 
 require 'rubygems'
 
@@ -41,3 +42,20 @@ f.puts "Ending time now #{Time.now}"
 f.close
 
 
+=======
+require 'rubygems'
+require 'watir-webdriver'
+require 'date'
+load './test10.rb'
+
+class Test < Env
+ def init_param  param
+  @param = get_env
+end
+end
+d = Test.new
+d.init_param @param
+env = d.init_param @param
+
+browser.close
+>>>>>>> 0e50423d978eb0717c4371df46e73cc1dec42750
