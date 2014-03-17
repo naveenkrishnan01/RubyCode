@@ -1,0 +1,221 @@
+[0.003][INFO]:      ChromeDriver 23.0.1240.0 /usr/local/bin/chromedriver
+[0.840][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.detach": true,
+   "chromeOptions": {
+      "detach": true
+   },
+   "cssSelectorsEnabled": true,
+   "javascriptEnabled": true,
+   "nativeEvents": false,
+   "platform": "ANY",
+   "rotatable": false,
+   "takesScreenshot": false,
+   "version": ""
+}
+
+[0.841][INFO]:      Using named testing interface
+[12.208][INFO]:     Connected to Chrome successfully. Version: 24.0.1312.56
+[12.249][FINE]:     Command received (/session/003fa9472b8e830f5b761ac7f6fcc407)
+[12.250][FINE]:     Command finished (/session/003fa9472b8e830f5b761ac7f6fcc407) with response {
+   "sessionId": "003fa9472b8e830f5b761ac7f6fcc407",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "23.0.1240.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "linux",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "24.0.1312.56",
+      "webStorageEnabled": true
+   }
+}
+
+[12.255][FINE]:     Command received (/session/003fa9472b8e830f5b761ac7f6fcc407/url) with params {
+   "url": "http://www.axs.com"
+}
+
+[12.255][FINER]:    Waiting for all views to stop loading...
+[12.262][FINER]:    Done waiting for all views to stop loading
+[27.242][FINER]:    Waiting for all views to stop loading...
+[27.249][FINER]:    Done waiting for all views to stop loading
+[27.249][FINE]:     Command finished (/session/003fa9472b8e830f5b761ac7f6fcc407/url) with response {
+   "sessionId": "003fa9472b8e830f5b761ac7f6fcc407",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[27.251][FINE]:     Command received (/session/003fa9472b8e830f5b761ac7f6fcc407/url)
+[27.251][FINER]:    Waiting for all views to stop loading...
+[27.254][FINER]:    Done waiting for all views to stop loading
+[27.298][FINER]:    Waiting for all views to stop loading...
+[27.299][FINER]:    Done waiting for all views to stop loading
+[27.299][FINE]:     Command finished (/session/003fa9472b8e830f5b761ac7f6fcc407/url) with response {
+   "sessionId": "003fa9472b8e830f5b761ac7f6fcc407",
+   "status": 0,
+   "value": "http://www.axs.com/"
+}
+
+[27.303][FINE]:     Command received (/session/003fa9472b8e830f5b761ac7f6fcc407/frame) with params {
+   "id": null
+}
+
+[27.303][FINER]:    Waiting for all views to stop loading...
+[27.304][FINER]:    Done waiting for all views to stop loading
+[27.304][FINER]:    Waiting for all views to stop loading...
+[27.305][FINER]:    Done waiting for all views to stop loading
+[27.305][FINE]:     Command finished (/session/003fa9472b8e830f5b761ac7f6fcc407/frame) with response {
+   "sessionId": "003fa9472b8e830f5b761ac7f6fcc407",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[27.310][FINE]:     Command received (/session/003fa9472b8e830f5b761ac7f6fcc407/element) with params {
+   "using": "xpath",
+   "value": ".//a[@title='AXS PAGE']"
+}
+
+[27.310][FINER]:    Waiting for all views to stop loading...
+[27.311][FINER]:    Done waiting for all views to stop loading
+[27.357][FINER]:    Waiting for all views to stop loading...
+[27.358][FINER]:    Done waiting for all views to stop loading
+[27.358][WARNING]:  Command finished (/session/003fa9472b8e830f5b761ac7f6fcc407/element) with response {
+   "sessionId": "003fa9472b8e830f5b761ac7f6fcc407",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[27.360][FINE]:     Command received (/session/003fa9472b8e830f5b761ac7f6fcc407/frame) with params {
+   "id": null
+}
+
+[27.360][FINER]:    Waiting for all views to stop loading...
+[27.361][FINER]:    Done waiting for all views to stop loading
+[27.361][FINER]:    Waiting for all views to stop loading...
+[27.362][FINER]:    Done waiting for all views to stop loading
+[27.362][FINE]:     Command finished (/session/003fa9472b8e830f5b761ac7f6fcc407/frame) with response {
+   "sessionId": "003fa9472b8e830f5b761ac7f6fcc407",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[27.363][FINE]:     Command received (/session/003fa9472b8e830f5b761ac7f6fcc407/element) with params {
+   "using": "id",
+   "value": "myaxs-sign-in"
+}
+
+[27.363][FINER]:    Waiting for all views to stop loading...
+[27.364][FINER]:    Done waiting for all views to stop loading
+[27.387][FINER]:    Waiting for all views to stop loading...
+[27.388][FINER]:    Done waiting for all views to stop loading
+[27.388][FINE]:     Command finished (/session/003fa9472b8e830f5b761ac7f6fcc407/element) with response {
+   "sessionId": "003fa9472b8e830f5b761ac7f6fcc407",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1374354569202"
+   }
+}
+
+[27.392][FINE]:     Command received (/session/003fa9472b8e830f5b761ac7f6fcc407/element/:wdc:1374354569202/name)
+[27.393][FINER]:    Waiting for all views to stop loading...
+[27.393][FINER]:    Done waiting for all views to stop loading
+[27.403][FINER]:    Waiting for all views to stop loading...
+[27.408][FINER]:    Done waiting for all views to stop loading
+[27.409][FINE]:     Command finished (/session/003fa9472b8e830f5b761ac7f6fcc407/element/:wdc:1374354569202/name) with response {
+   "sessionId": "003fa9472b8e830f5b761ac7f6fcc407",
+   "status": 0,
+   "value": "a"
+}
+
+[27.411][FINE]:     Command received (/session/003fa9472b8e830f5b761ac7f6fcc407/element/:wdc:1374354569202/enabled)
+[27.411][FINER]:    Waiting for all views to stop loading...
+[27.412][FINER]:    Done waiting for all views to stop loading
+[27.421][FINER]:    Waiting for all views to stop loading...
+[27.422][FINER]:    Done waiting for all views to stop loading
+[27.422][FINE]:     Command finished (/session/003fa9472b8e830f5b761ac7f6fcc407/element/:wdc:1374354569202/enabled) with response {
+   "sessionId": "003fa9472b8e830f5b761ac7f6fcc407",
+   "status": 0,
+   "value": true
+}
+
+[27.424][FINE]:     Command received (/session/003fa9472b8e830f5b761ac7f6fcc407/element/:wdc:1374354569202/click) with params {
+
+}
+
+[27.424][FINER]:    Waiting for all views to stop loading...
+[27.425][FINER]:    Done waiting for all views to stop loading
+[27.677][FINER]:    Waiting for all views to stop loading...
+[27.830][FINER]:    Done waiting for all views to stop loading
+[27.830][FINE]:     Command finished (/session/003fa9472b8e830f5b761ac7f6fcc407/element/:wdc:1374354569202/click) with response {
+   "sessionId": "003fa9472b8e830f5b761ac7f6fcc407",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[27.832][FINE]:     Command received (/session/003fa9472b8e830f5b761ac7f6fcc407/frame) with params {
+   "id": null
+}
+
+[27.832][FINER]:    Waiting for all views to stop loading...
+[27.838][FINER]:    Done waiting for all views to stop loading
+[27.838][FINER]:    Waiting for all views to stop loading...
+[27.841][FINER]:    Done waiting for all views to stop loading
+[27.841][FINE]:     Command finished (/session/003fa9472b8e830f5b761ac7f6fcc407/frame) with response {
+   "sessionId": "003fa9472b8e830f5b761ac7f6fcc407",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[27.843][FINE]:     Command received (/session/003fa9472b8e830f5b761ac7f6fcc407/element) with params {
+   "using": "id",
+   "value": "myaxs-sign-in"
+}
+
+[27.843][FINER]:    Waiting for all views to stop loading...
+[27.846][FINER]:    Done waiting for all views to stop loading
+[27.854][FINER]:    Waiting for all views to stop loading...
+[27.854][FINER]:    Done waiting for all views to stop loading
+[27.854][FINE]:     Command finished (/session/003fa9472b8e830f5b761ac7f6fcc407/element) with response {
+   "sessionId": "003fa9472b8e830f5b761ac7f6fcc407",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1374354569202"
+   }
+}
+
+[27.856][FINE]:     Command received (/session/003fa9472b8e830f5b761ac7f6fcc407/element/:wdc:1374354569202/name)
+[27.856][FINER]:    Waiting for all views to stop loading...
+[27.856][FINER]:    Done waiting for all views to stop loading
+[27.862][FINER]:    Waiting for all views to stop loading...
+[27.863][FINER]:    Done waiting for all views to stop loading
+[27.863][FINE]:     Command finished (/session/003fa9472b8e830f5b761ac7f6fcc407/element/:wdc:1374354569202/name) with response {
+   "sessionId": "003fa9472b8e830f5b761ac7f6fcc407",
+   "status": 0,
+   "value": "a"
+}
+
+[27.865][FINE]:     Command received (/session/003fa9472b8e830f5b761ac7f6fcc407)
+[39.977][WARNING]:  Chrome still running, terminating...
+[39.977][INFO]:     Chrome shutdown
