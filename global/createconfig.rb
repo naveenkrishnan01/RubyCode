@@ -2,7 +2,7 @@
 require 'selenium-webdriver'
 
 
-def init (env, br)
+def init (env, br, name)
  @environment = env
  @browser     = br
 end
@@ -22,6 +22,17 @@ def get_browser
   return browser
 end
 
+def start_message(name)
+  @name = name
+  puts "Test begins for script #{name}"
+  puts " "
+end
+
+
+def DateTime_disp()
+ puts "Starting Time now #{Time.now}"
+end
+
 $driver = nil
 def start_browser()
    $driver = Selenium::WebDriver.for :firefox
@@ -35,8 +46,24 @@ def display_msg(message)
  @msg = message
 puts @msg
 end
- 
+
+def element_present(how, what)
+@t = $driver.find_element(how, what)
+  true
+  puts " "
+  rescue Selenium::WebDriver::Error::NoSuchElementError => e
+  false
+  puts e.message
+  puts " "
+ end   
 
 def teardown()
   $driver.quit
 end
+
+#def error_handling()
+ # rescue Selenium::WebDriver::Error::NoSuchElementError => e
+#   puts e.message
+#  end
+
+
