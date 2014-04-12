@@ -20,7 +20,14 @@ sleep 2;
 @t.nil? ? display_msg("signup button not found") : display_msg("signup button found")
 sleep 3;
 
-element_present(:class, "jumbotroni")
+element_present(:xpath, ".//*[@id='hdr-sign-up']/button")
+if @t.text.include? "Sign Up Free1"
+  display_msg("found the text for Signup")
+else
+  display_msg("Text not found for Signup")
+end 
+
+element_present(:class, "jumbotron")
   puts @t.text
   puts " "
 
