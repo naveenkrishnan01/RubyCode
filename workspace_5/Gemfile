@@ -1,0 +1,14 @@
+source 'https://rubygems.org'
+
+
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+#gem 'rails', '4.1.1'
+#gem 'rspec'
+gem 'rspec-rails', '2.12'
+#gem 'rspec-rails'
+#gem 'capybara', '2.0.3'
+gem 'capybara'
+gem 'sauce', '3.4.4'
+gem 'sauce-connect'
+gem 'parallel_tests'
+
