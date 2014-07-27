@@ -1,0 +1,26 @@
+2014-06-26 12:04:43,632 - sauce_connect:601 - INFO - / Starting \
+2014-06-26 12:04:43,641 - sauce_connect:602 - INFO - Please wait for "You may start your tests" to start your tests.
+2014-06-26 12:04:43,654 - sauce_connect:614 - DEBUG - System is -7.0 hours off UTC
+2014-06-26 12:04:43,655 - sauce_connect:616 - DEBUG - options: {'proxy_tunnel': False, 'proxy_host': '', 'no_ssl_bump_domains': '', 'allow_unclean_exit': False, 'logfile': 'sauce_connect.log', 'squid_opts': '', 'user': 'naveenk', 'ports': ['58010'], 'domains': ['sauce-connect.proxy'], 'proxy_port': '', 'debug_ssh': False, 'tunnel_ports': ['80'], 'rest_url': 'https://saucelabs.com/rest/v1', 'proxy_user': '', 'logfilesize': '31457280', 'proxy_password': '', 'boost_mode': True, 'tunnel_identifier': '', 'fast_fail_regexps': '', 'vm_version': '', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False, 'ssh': False, 'se_port': '4445', 'readyfile': 'sauce_connect.ready', 'shared_tunnel': False, 'ssh_port': 443, 'direct_domains': '', 'host': '127.0.0.1'}
+2014-06-26 12:04:43,657 - sauce_connect:617 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.1-r32', 'OwnerPorts': ['58010'], 'Ports': ['80'], 'Platform': 'Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.9.2-x86_64', 'Build': '50', 'ScriptRelease': 50, 'ScriptName': 'sauce_connect'}
+2014-06-26 12:04:43,660 - sauce_connect:619 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['58010']
+2014-06-26 12:04:43,680 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:58010 in 12ms
+2014-06-26 12:04:44,177 - sauce_connect:265 - INFO - {"squid_config":null,"no_ssl_bump_domains":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.1-r32","OwnerPorts":["58010"],"Ports":["80"],"Platform":"Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.9.2-x86_64","Build":"50","ScriptRelease":50,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"vm_version":"","domain_names":["sauce-connect.proxy"]}
+2014-06-26 12:04:48,951 - sauce_connect:276 - INFO - Tunnel remote VM is provisioned (5be3a638845449bd9edf47b6cbfa9567)
+2014-06-26 12:04:49,108 - sauce_connect:294 - INFO - Tunnel remote VM is booting ..
+2014-06-26 12:05:26,651 - sauce_connect:298 - INFO - Tunnel remote VM is running at maki77021.miso.saucelabs.com
+2014-06-26 12:05:26,664 - sauce_connect:401 - INFO - Succesfully connected to local server 127.0.0.1:58010 in 0ms
+2014-06-26 12:05:26,667 - sauce_connect:696 - INFO - Starting connection to tunnel host...
+2014-06-26 12:05:26,668 - sauce_connect:696 - INFO - Connecting to tunnel host maki77021.miso.saucelabs.com as naveenk
+2014-06-26 12:05:26,805 - sauce_connect:696 - INFO - Forwarding Selenium with ephemeral port 58312
+2014-06-26 12:05:26,811 - sauce_connect:696 - INFO - Selenium HTTP proxy listening on port 4445
+2014-06-26 12:05:27,148 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2014-06-26 12:05:27,161 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: cd58e6fedf604b1986a904ad93f32ec7
+2014-06-26 12:05:27,164 - sauce_connect:696 - INFO - Connected! You may start your tests.
+2014-06-26 13:06:24,085 - sauce_connect:0 - INFO - Sauce Connect connection stalled! 650/652 acks, 2947850ms since last recv, 2083ms timeout exceeded, min ack: 17
+2014-06-26 13:06:24,089 - sauce_connect:0 - INFO - disconnected from Sauce Connect server
+2014-06-26 13:06:24,092 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2014-06-26 13:06:25,351 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2014-06-26 13:06:25,351 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: cd58e6fedf604b1986a904ad93f32ec7
+2014-06-26 13:06:25,354 - sauce_connect:0 - INFO - resending 1 packets
+2014-06-26 14:12:25,993 - sauce_connect:0 - INFO - received SIGINT
