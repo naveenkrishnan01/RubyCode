@@ -1,4 +1,0 @@
-open the file
-Test is now complete 
-Total count for text validation on the page: 1
-Ending time now 2013-07-20 15:53:16 -0700
